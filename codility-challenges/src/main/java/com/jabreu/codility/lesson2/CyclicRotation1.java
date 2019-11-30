@@ -25,9 +25,4 @@ public class CyclicRotation1 {
 
 	}
 
-	public static void main(String[] args) {
-		CyclicRotation1 sol = new CyclicRotation1();
-		sol.solution(new int[] {}, 4);
-		sol.solution(new int[] { 3, 8, 9, 7, 6 }, 4);
-	}
 }
