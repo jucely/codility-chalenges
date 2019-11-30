@@ -1,20 +1,20 @@
 package com.jabreu.codility.lesson1;
 
+/**
+ * Strategy
+ * 
+ * 1 - Parse the number N to binary String.
+ * 2 - Split the binary String in sequences of '0'.
+ * 3 - For each sequence of '0', verify if it is between '1'
+ * and it's the largest sequence of '0' found.
+ * 
+ * https://app.codility.com/demo/results/trainingAVWJDV-ASW/
+ * 
+ * @author jucely
+ *
+ */
 public class BinaryGap1 {
 
-	/**
-	 * Strategy
-	 * 
-	 * 1 - Parse the number N to binary String 
-	 * 2 - Split the binary String in sequences of '0' 
-	 * 3 - For each sequence of '0', verify if it is between '1'
-	 * and it's the largest sequence of '0' found.
-	 * 
-	 * https://app.codility.com/demo/results/trainingAVWJDV-ASW/
-	 * 
-	 * @author jucely
-	 *
-	 */
 	public int solution(int N) {
 		// write your code in Java SE 8
 		String binary = Integer.toString(N, 2);
