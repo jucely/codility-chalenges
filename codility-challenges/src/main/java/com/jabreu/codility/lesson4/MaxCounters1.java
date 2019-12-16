@@ -1,4 +1,4 @@
-package com.jabreu.codility.lesson2;
+package com.jabreu.codility.lesson4;
 
 import java.util.Arrays;
 
